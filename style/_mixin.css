@@ -1,0 +1,44 @@
+/*resize*/
+/*animation for caruzel mobile*/
+@-webkit-keyframes caruzel_1_mobile {
+  0% {
+    -webkit-transform: translateX(10%);
+    transform: translateX(10%); }
+  50% {
+    -webkit-transform: translateX(130%) translateY(10%) scale(1);
+    transform: translateX(130%) translateY(10%) scale(1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@keyframes caruzel_1_mobile {
+  0% {
+    -webkit-transform: translateX(10%);
+    transform: translateX(10%); }
+  50% {
+    -webkit-transform: translateX(130%) translateY(10%) scale(1);
+    transform: translateX(130%) translateY(10%) scale(1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes caruzel_2_mobile {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  50% {
+    -webkit-transform: translateX(-130%) translateY(-10%) scale(1);
+    transform: translateX(-130%) translateY(-10%) scale(1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes caruzel_2_mobile {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  50% {
+    -webkit-transform: translateX(-130%) translateY(-10%) scale(1);
+    transform: translateX(-130%) translateY(-10%) scale(1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
